@@ -5,7 +5,7 @@ const CountryList = ({stats}) =>{
     return(
         <div className='countrylist'>
             {
-             stats.map(country =><CountryList key={country.CountryCode} stats={country}/>)
+             stats.map(country =><Country key={country.CountryCode} stats={country}/>)
             }
         </div>
     )
