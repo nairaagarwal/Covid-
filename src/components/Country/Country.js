@@ -15,3 +15,4 @@ const Country = ({stats}) => {
     )
 }
 
+export default Country;
